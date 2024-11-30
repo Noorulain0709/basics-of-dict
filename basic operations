@@ -1,0 +1,35 @@
+student={
+    "name":"noorulain",
+    "age":19,
+    "subject":["math","biolaogy"]
+}
+print(student["name"])
+print(student["age"])
+print(student["subject"])
+my_friend=dict(name="sehar",age=20,subject="physics ""math")
+print(my_friend.get("age"))
+#some operations
+student_info={"name":"fatima",
+              "age":34,
+              "fav_subjects":["maths","computer","farsi"]}
+print(student_info["name"])
+print(student_info["age"])
+print(student_info["fav_subjects"])
+student_info["bestcource"]="bscs"
+print(student_info)
+student_info["age"]=30
+print(student_info)
+student_info.pop("name")
+print(student_info)
+student_info.popitem()
+print(student_info)
+del student_info["age"]
+print(student_info)
+student_info.clear()
+print(student_info)
+print(student_info.keys())
+student_info.update({"age":16,"name":"fatuu","hobby":"cricket"})
+print(student_info)
+print(student_info.keys())
+print(student_info.values())
+print(student_info.items())
